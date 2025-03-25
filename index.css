@@ -1,0 +1,545 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+section {
+  display: flex;
+}
+
+.sideNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding-top: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 80px;
+  height: 100vh;
+  border-right: 1px solid #0000000d;
+}
+.TentLogo {
+  padding-bottom: 24px;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 54px;
+  height: fit-content;
+}
+
+.topNav h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
+}
+
+.leftLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.rightLogo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  gap: 10px;
+}
+
+.sideNav img,
+.leftLogo img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Profile image container */
+.profile {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+.ProfilePic {
+  width: 54px;
+}
+
+.blueTick {
+  position: absolute;
+  width: 14px;
+  height: auto;
+  bottom: -5px;
+  right: -1px;
+}
+
+/* Profile image container ends */
+
+.RightandLeftContainer {
+  display: flex;
+  gap: 37px;
+  margin-top: 34px;
+  width: 95%;
+}
+.rightContainer {
+  width: 750px;
+}
+
+.leftContainer {
+  margin-left: 56px;
+  width: 375px;
+}
+
+.leftContainer input {
+  width: 375px;
+  height: 42px;
+  border-radius: 40px;
+  border: none;
+  padding: 10px;
+  background-color: #1e1e1e06;
+  outline: none;
+  padding-left: 42px;
+}
+.inputSearchContainer {
+  position: relative;
+}
+
+.SearchClass {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+.leftContainer input::placeholder {
+  font-size: 12px;
+  color: #1e1e1e80;
+}
+
+.containerOne {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+}
+.profileName {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 16px;
+}
+.profileName h2 {
+  font-size: 16px;
+  font-weight: 600px;
+  color: #8ba2b4;
+  background-color: #8ba2b41a;
+  border-radius: 55px;
+  width: fit-content;
+  padding: 5px 10px;
+}
+
+.profileName h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #002d1b;
+}
+
+.ProfileTwoImageBlue {
+  position: relative;
+}
+.ProfileTwoImageBlue .blueTickS {
+  position: absolute;
+  bottom: 2px;
+  right: 6px;
+  width: 19px;
+}
+
+.settings {
+  margin-top: 32px;
+}
+.generalSettings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.generalSettingsText {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.generalSettingsText h1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  margin-bottom: 4px;
+}
+.generalSettingsText p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  color: #1e1e1e66;
+}
+
+/* right style */
+
+.backEditProfile p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.backEditProfile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.backIcon {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.backEditProfile a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.inputInfo {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding-top: 32px;
+}
+
+.personnalData input {
+  border: none;
+  border-bottom: 1px solid #0000001a;
+  outline: none;
+  padding-bottom: 11px;
+  width: 100%;
+}
+
+.personnalData input::placeholder {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.personnalData {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.personnalDataone,
+.personnalDatatwo,
+.personnalDataone p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.contactInfo {
+  margin-top: 32px;
+}
+
+.contactText {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #1e1e1e99;
+  padding-left: 24px;
+}
+
+.conatactInfoData {
+  display: flex;
+  justify-content: space-between;
+}
+
+.personnalDataContact {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 24px;
+}
+
+.personnalDataContact input {
+  border: none;
+  border-bottom: 1px solid #0000001a;
+  outline: none;
+  padding-bottom: 11px;
+  width: 100%;
+}
+
+.personnalDataContact input::placeholder {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.contactInfo {
+  margin-top: 70px;
+}
+
+.conatactInfoData {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-bottom: 1px solid #0000001a;
+}
+.EditText {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #1e1e1e99;
+}
+
+.ContactSub {
+  display: flex;
+  align-items: center;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 24px;
+}
+
+.number {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin-right: 4px;
+}
+
+.ContactSub input {
+  border: none;
+  outline: none;
+  margin-left: 10px;
+}
+
+.NumberEdit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-left: 24px;
+  width: 93%;
+}
+.RegionContainer {
+  margin-top: 32px;
+}
+
+.RegionContainer h3 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #1e1e1e99;
+  padding-left: 24px;
+}
+
+.lagosText {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #1e1e1e;
+  padding-left: 8px;
+}
+
+.regionText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #1e1e1e66;
+  padding-left: 8px;
+}
+.conatactInfoDataDown {
+  padding-top: 19px;
+  padding-bottom: 4px;
+
+  padding-right: 24px;
+  border-bottom: 1px solid #0000001a;
+  display: flex;
+  justify-content: space-between;
+}
+
+.addressText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #1e1e1e99;
+  padding-left: 8px;
+  padding-top: 16px;
+}
+.addressWord {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #1e1e1e99;
+  padding-left: 8px;
+  padding-top: 5px;
+}
+
+.contactData {
+  padding-left: 24px;
+}
+.numIcon {
+  display: flex;
+  align-items: center;
+}
+
+.sideNavMobile {
+  display: none;
+}
+
+ .sideNavTablet{
+  display: none;
+
+  }
+
+@media screen and (max-width: 767px) {
+  section {
+    display: block;
+    padding-top: 5px;
+  }
+
+  .sideNav {
+    display: none;
+  }
+
+  .topNav {
+    display: none;
+  }
+
+  .rightContainer {
+    display: none;
+  }
+
+  .leftContainer {
+    margin-left: 0px;
+    width: 360px;
+  }
+
+  .RightandLeftContainer {
+    display: block;
+    gap: 0px;
+    margin-top: 0px;
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .sideNavMobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 29px;
+    padding-right: 29px;
+  }
+
+  .TentLogo {
+    padding-bottom: 0px;
+  }
+
+
+  .sideNavTablet{
+  display: none;
+
+  }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .rightContainer {
+    display: none;
+  }
+
+  section {
+  display: block;
+    padding-top: 5px;
+  }
+
+
+  .RightandLeftContainer {
+    display: block;
+    gap: 0px;
+
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .sideNav {
+    display: none;
+  }
+
+  .sideNavTablet{
+     display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding-top: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 80px;
+  height: 100vh;
+  border-right: 1px solid #0000000d;
+  }
+
+
+  .RightandLeftContainer {
+    display: block;
+    gap: 0px;
+    margin-top: 0px;
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  
+
+  
+.sideNavMobile {
+  display: none;
+}
+.Page{
+  display: block;
+      width: 100%;
+
+}
+
+.wizkid-container {
+  display: flex;
+
+}
+
+
+.leftContainer input {
+    width: 100%;
+}
+
+
+
+.leftContainer {
+    margin-left: 56px;
+    width: 85%;
+}
+}

@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Govi</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section id="mainSection" data-testid="main-section">
+      <!-- side nav begin-->
+      <nav class="sideNav" id="sideNav" data-testid="side-nav">
+        <a href="" class="TentLogo" id="tentLogo" data-testid="tent-logo">
+          <img src="/assets/Tent.svg" alt="Tent logo"
+        /></a>
+        <a href="" id="compassLogo" data-testid="compass-logo">
+          <img src="/assets/compass.svg" alt="Compass logo"
+        /></a>
+        <a href="" id="elementLogo" data-testid="element-logo">
+          <img src="/assets/Element.svg" alt="Element logo"
+        /></a>
+        <a href="" id="cameraLogo" data-testid="camera-logo">
+          <img src="/assets/Camera.svg" alt="Camera logo"
+        /></a>
+        <a href="" id="chartLogo" data-testid="chart-logo">
+          <img src="/assets/ChartBarHorizontal.svg" alt="Chart logo"
+        /></a>
+      </nav>
+      <!-- side-nav ends -->
+
+<div class="wizkid-container">
+          <nav class="sideNavTablet" id="sideNav" data-testid="side-nav">
+          <a href="" class="TentLogo" id="tentLogo" data-testid="tent-logo">
+            <img src="/assets/Tent.svg" alt="Tent logo"
+          /></a>
+          <a href="" id="compassLogo" data-testid="compass-logo">
+            <img src="/assets/compass.svg" alt="Compass logo"
+          /></a>
+          <a href="" id="elementLogo" data-testid="element-logo">
+            <img src="/assets/Element.svg" alt="Element logo"
+          /></a>
+          <a href="" id="cameraLogo" data-testid="camera-logo">
+            <img src="/assets/Camera.svg" alt="Camera logo"
+          /></a>
+          <a href="" id="chartLogo" data-testid="chart-logo">
+            <img src="/assets/ChartBarHorizontal.svg" alt="Chart logo"
+          /></a>
+        </nav>
+      <!-- dashboard body  begin-->
+      <div class="Page" id="pageContainer" data-testid="page-container">
+          <!-- topnav begin -->
+          <nav class="topNav" id="topNav" data-testid="top-nav">
+            <div class="leftLogo" id="leftLogo" data-testid="left-logo">
+              <div id="snapLogo" data-testid="snap-logo">
+                <img src="/assets/Snap.svg" alt="Snap logo" />
+              </div>
+              <h1>Profile</h1>
+            </div>
+            <div class="rightLogo" id="rightLogo" data-testid="right-logo">
+              <div id="notificationIcon" data-testid="notification-icon">
+                <img src="/assets/Bell.svg" alt="Bell logo" />
+              </div>
+              <div
+                class="profile"
+                id="profileSection"
+                data-testid="profile-section"
+              >
+                <img
+                  src="/assets/profilePic.svg"
+                  alt="Profile Pic"
+                  class="profilePic"
+                  id="profilePic"
+                  data-testid="profile-pic"
+                />
+                <img
+                  src="/assets/BlueTicks.svg"
+                  alt="Verified"
+                  class="blueTick"
+                  id="blueTick"
+                  data-testid="blue-tick"
+                />
+              </div>
+            </div>
+          </nav>
+          <!-- topnav ends here -->
+
+          <!-- container for right and left -->
+          <div
+            class="RightandLeftContainer"
+            id="rightAndLeftContainer"
+            data-testid="right-left-container"
+          >
+            <!-- left container begins -->
+
+            <div
+              class="leftContainer"
+              id="leftContainer"
+              data-testid="left-container"
+            >
+              <div
+                class="inputSearchContainer"
+                id="inputSearchContainer"
+                data-testid="input-search-container"
+              >
+                <input
+                  type="text"
+                  placeholder="Type to search settings"
+                  id="searchInput"
+                  data-testid="search-input"
+                />
+                <img
+                  src="/assets/Search.svg"
+                  alt="Search"
+                  class="SearchClass"
+                  id="searchIcon"
+                  data-testid="search-icon"
+                />
+              </div>
+              <div
+                class="containerOne"
+                id="containerOne"
+                data-testid="container-one"
+              >
+                <div
+                  class="ProfileTwoImageBlue"
+                  id="profileTwoImageBlue"
+                  data-testid="profile-two-image-blue"
+                >
+                  <img src="/assets/profilePicTwo.svg" alt="Profile Pic" />
+                  <img
+                    src="/assets/BlueTicks.svg"
+                    alt="Verified"
+                    class="blueTickS"
+                    id="blueTickSmall"
+                    data-testid="blue-tick-small"
+                  />
+                </div>
+
+                <div
+                  class="profileName"
+                  id="profileName"
+                  data-testid="profile-name"
+                >
+                  <h2 id="userInitials" data-testid="user-initials">San.</h2>
+                  <h1 id="userName" data-testid="user-name">Olabisi Onifade</h1>
+                </div>
+              </div>
+              <div class="settings" id="settings" data-testid="settings">
+                <div
+                  class="generalSettings"
+                  id="generalSettings"
+                  data-testid="general-settings"
+                >
+                  <div
+                    class="generalSettingsText"
+                    id="settingsText"
+                    data-testid="settings-text"
+                  >
+                    <img
+                      src="/assets/GearIcon.svg"
+                      alt="Gear Icon"
+                      id="gearIcon"
+                      data-testid="gear-icon"
+                    />
+                    <div>
+                      <h1>General</h1>
+                      <p>Manage basic settings</p>
+                    </div>
+                  </div>
+                  <a href="">
+                    <img
+                      src="/assets/CaretRight.svg"
+                      alt="Caret Right"
+                      id="caretRight"
+                      data-testid="caret-right"
+                    />
+                  </a>
+                </div>
+
+                <div
+                  class="generalSettings"
+                  id="generalSettings"
+                  data-testid="general-settings"
+                >
+                  <div
+                    class="generalSettingsText"
+                    id="settingsText"
+                    data-testid="settings-text"
+                  >
+                    <img
+                      src="/assets/calenderIcon.svg"
+                      alt="calenderIcon"
+                      id="calenderIcon"
+                      data-testid="calenderIcon"
+                    />
+                    <div>
+                      <h1>Appointment</h1>
+                      <p>Change and manage appointment settings</p>
+                    </div>
+                  </div>
+                  <a href="">
+                    <img
+                      src="/assets/CaretRight.svg"
+                      alt="Caret Right"
+                      id="caretRight"
+                      data-testid="caret-right"
+                    />
+                  </a>
+                </div>
+
+                <div
+                  class="generalSettings"
+                  id="generalSettings"
+                  data-testid="general-settings"
+                >
+                  <div
+                    class="generalSettingsText"
+                    id="settingsText"
+                    data-testid="settings-text"
+                  >
+                    <img
+                      src="/assets/bigBell.svg"
+                      alt="bigBell"
+                      id="bigBell"
+                      data-testid="bigBell"
+                    />
+                    <div>
+                      <h1>Notifications</h1>
+                      <p>Manage all notification features</p>
+                    </div>
+                  </div>
+                  <a href="">
+                    <img
+                      src="/assets/CaretRight.svg"
+                      alt="Caret Right"
+                      id="caretRight"
+                      data-testid="caret-right"
+                    />
+                  </a>
+                </div>
+
+                <div
+                  class="generalSettings"
+                  id="generalSettings"
+                  data-testid="general-settings"
+                >
+                  <div
+                    class="generalSettingsText"
+                    id="settingsText"
+                    data-testid="settings-text"
+                  >
+                    <img
+                      src="/assets/padlock.svg"
+                      alt="padlock"
+                      id="padlock"
+                      data-testid="padlock"
+                    />
+                    <div>
+                      <h1>Privacy & Security</h1>
+                      <p>Turn on & off privacy and security features</p>
+                    </div>
+                  </div>
+                  <a href="">
+                    <img
+                      src="/assets/CaretRight.svg"
+                      alt="Caret Right"
+                      id="caretRight"
+                      data-testid="caret-right"
+                    />
+                  </a>
+                </div>
+
+                <div
+                  class="generalSettings"
+                  id="generalSettings"
+                  data-testid="general-settings"
+                >
+                  <div
+                    class="generalSettingsText"
+                    id="settingsText"
+                    data-testid="settings-text"
+                  >
+                    <img
+                      src="/assets/laptopIcon.svg"
+                      alt="laptopIcon"
+                      id="laptopIcon"
+                      data-testid="laptopIcon"
+                    />
+                    <div>
+                      <h1>Active Sessions</h1>
+                      <p>Manage devices you logged in your account</p>
+                    </div>
+                  </div>
+                  <a href="">
+                    <img
+                      src="/assets/CaretRight.svg"
+                      alt="Caret Right"
+                      id="caretRight"
+                      data-testid="caret-right"
+                    />
+                  </a>
+                </div>
+
+                <div
+                  class="generalSettings"
+                  id="generalSettings"
+                  data-testid="general-settings"
+                >
+                  <div
+                    class="generalSettingsText"
+                    id="settingsText"
+                    data-testid="settings-text"
+                  >
+                    <img
+                      src="/assets/hardDrives.svg"
+                      alt="Gear Icon"
+                      id="gearIcon"
+                      data-testid="gear-icon"
+                    />
+                    <div>
+                      <h1>Data Box</h1>
+                      <p>Manage data settings</p>
+                    </div>
+                  </div>
+                  <a href="">
+                    <img
+                      src="/assets/CaretRight.svg"
+                      alt="Caret Right"
+                      id="caretRight"
+                      data-testid="caret-right"
+                    />
+                  </a>
+                </div>
+
+                <div
+                  class="generalSettings"
+                  id="generalSettings"
+                  data-testid="general-settings"
+                >
+                  <div
+                    class="generalSettingsText"
+                    id="settingsText"
+                    data-testid="settings-text"
+                  >
+                    <img
+                      src="/assets/languageIcon.svg"
+                      alt="languageIcon"
+                      id="languageIcon"
+                      data-testid="languageIcon"
+                    />
+                    <div>
+                      <h1>Language & Region</h1>
+                      <p>Change your account language and region settings</p>
+                    </div>
+                  </div>
+                  <a href="">
+                    <img
+                      src="/assets/CaretRight.svg"
+                      alt="Caret Right"
+                      id="caretRight"
+                      data-testid="caret-right"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- mobile view nav -->
+            <nav
+              class="sideNavMobile"
+              id="sideNavMobile"
+              data-testid="side-nav-mobile"
+            >
+              <a href="" class="TentLogo" id="tentLogo" data-testid="tent-logo">
+                <img src="/assets/Tent.svg" alt="Tent logo"
+              /></a>
+              <a href="" id="compassLogo" data-testid="compass-logo">
+                <img src="/assets/compass.svg" alt="Compass logo"
+              /></a>
+              <a href="" id="elementLogo" data-testid="element-logo">
+                <img src="/assets/Element.svg" alt="Element logo"
+              /></a>
+              <a href="" id="cameraLogo" data-testid="camera-logo">
+                <img src="/assets/Camera.svg" alt="Camera logo"
+              /></a>
+              <a href="" id="chartLogo" data-testid="chart-logo">
+                <img src="/assets/ChartBarHorizontal.svg" alt="Chart logo"
+              /></a>
+            </nav>
+            <!-- mobile view nav -->
+            <!-- left container ends -->
+
+
+            <!-- right container begins -->
+            <div
+              class="rightContainer"
+              id="rightContainer"
+              data-testid="right-container"
+            >
+              <div
+                class="backEditProfile"
+                id="backEditProfile"
+                data-testid="back-edit-profile"
+              >
+                <div class="backIcon" data-testid="back-icon">
+                  <i class="fa-solid fa-arrow-left"></i>
+                  <a href=""><p>Back</p></a>
+                </div>
+
+                <p>Edit Profile</p>
+                <a href="">
+                  <img src="/assets/doneButton.svg" alt="DoneButton" />
+                </a>
+              </div>
+
+              <!-- input container for title, first name, start  -->
+              <div class="inputInfo">
+                <img
+                  src="/assets/profilePhotoUpload.svg"
+                  alt="ProfilePicUpload"
+                />
+                <div class="personnalData">
+                  <div class="personnalDataone">
+                    <p>Title</p>
+                    <input type="text" name="Title" placeholder="Title" />
+                  </div>
+                  <div class="personnalDatatwo">
+                    <p>First Name</p>
+                    <input
+                      type="text"
+                      name="FirstName"
+                      placeholder="First Name"
+                    />
+                  </div>
+                  <div class="personnalDatatwo">
+                    <p>Last Name</p>
+                    <input
+                      type="text"
+                      name="LastName"
+                      placeholder="Last Name"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- input container for title, first name, End  -->
+
+              <!-- contact container begins -->
+              <div
+                class="contactInfo"
+                id="contactInfo"
+                data-testid="contact-info"
+              >
+                <p class="contactText">Contact</p>
+                <div
+                  class="personnalDataContact"
+                  id="personnalDataContact"
+                  data-testid="personnal-data-contact"
+                >
+                  <div
+                    class="conatactInfoData"
+                    id="conatactInfoData"
+                    data-testid="conatact-info-data"
+                  >
+                    <p>marianauzochukwu@gmail.com</p>
+                    <p class="EditText">Edit</p>
+                  </div>
+                </div>
+                <div class="NumberEdit">
+                  <div class="ContactSub">
+                    <div class="numIcon">
+                      <p class="number">+234</p>
+                      <i class="fa-solid fa-angle-down"></i>
+                    </div>
+
+                    <input
+                      type="number"
+                      name="phoneNumber"
+                      placeholder="801 234 5678"
+                    />
+                  </div>
+                  <p class="EditText">Edit</p>
+                </div>
+              </div>
+              <!-- contact container End -->
+
+              <div class="RegionContainer">
+                <h3>Region</h3>
+                <div class="contactData">
+                  <div class="conatactInfoDataDown">
+                    <div>
+                      <p class="lagosText">Lagos Nigeria</p>
+                      <p class="regionText">Region</p>
+                    </div>
+
+                    <p class="EditText">Edit</p>
+                  </div>
+                  <p class="addressText">2972 Westheimer Rd. Santa Ana</p>
+                  <p class="addressWord">Address</p>
+                  <br />
+                </div>
+              </div>
+            </div>
+            <!-- right-container ends -->
+          </div>
+    </div>
+
+    </div>
+
+
+        <!-- container for right and left ends -->
+      </div>
+      <!-- dashboard body ends-->
+    </section>
+  </body>
+</html>
